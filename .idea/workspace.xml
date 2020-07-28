@@ -16,15 +16,23 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22bc1668-1b32-4319-bfe6-67233b11e656" name="Default Changelist" comment="安装dart-sass">
+    <list default="true" id="22bc1668-1b32-4319-bfe6-67233b11e656" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +70,7 @@
       <workItem from="1591795220707" duration="889000" />
       <workItem from="1595828344517" duration="1057000" />
       <workItem from="1595898454757" duration="607000" />
-      <workItem from="1595899085242" duration="55000" />
+      <workItem from="1595899085242" duration="758000" />
     </task>
     <task id="LOCAL-00001" summary="安装dart-sass">
       <created>1595829221850</created>
@@ -71,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595829221850</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="安装styled-components">
+      <created>1595899253659</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595899253659</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,7 +97,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -91,13 +118,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="安装dart-sass" />
-    <option name="LAST_COMMIT_MESSAGE" value="安装dart-sass" />
+    <MESSAGE value="安装styled-components" />
+    <option name="LAST_COMMIT_MESSAGE" value="安装styled-components" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="47" key="CommitChangelistDialog2" timestamp="1595829305513">
+    <state x="528" y="64" key="CommitChangelistDialog2" timestamp="1595899252132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="47" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595829305513" />
+    <state x="528" y="64" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595899252132" />
     <state x="706" y="236" key="SettingsEditor" timestamp="1595899051512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
