@@ -52,13 +52,13 @@ function App() {
                 <Nav>
                     <ul>
                         <li>
-                            <Link to="/">money</Link>
+                            <Link to="/">记账页</Link>
                         </li>
                         <li>
-                            <Link to="/tags">Tags</Link>
+                            <Link to="/tags">标签页</Link>
                         </li>
                         <li>
-                            <Link to="/statistics">Statistics</Link>
+                            <Link to="/statistics">统计页</Link>
                         </li>
                     </ul>
                 </Nav>
@@ -70,7 +70,7 @@ function App() {
 function Money() {
     return (
         <div>
-            <h2>Money</h2>
+            <h2>记账</h2>
         </div>
     )
 }
@@ -78,7 +78,7 @@ function Money() {
 function Tags() {
     return (
         <div>
-            <h2>Tags</h2>
+            <h2>标签</h2>
         </div>
     )
 }
@@ -86,7 +86,7 @@ function Tags() {
 function Statistics() {
     return (
         <div>
-            <h2>Statistics</h2>
+            <h2>统计</h2>
         </div>
     )
 }
