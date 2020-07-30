@@ -25,10 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22bc1668-1b32-4319-bfe6-67233b11e656" name="Default Changelist" comment="Nav">
-      <change afterPath="$PROJECT_DIR$/src/components/Nav.tsx" afterDir="false" />
+    <list default="true" id="22bc1668-1b32-4319-bfe6-67233b11e656" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +49,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/icons" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="E:\test\money-rc\node_modules\typescript\lib" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="ts.external.directory.path" value="D:\test\money-rc\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\test\money-rc\src\icons" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -71,7 +76,15 @@
       <workItem from="1595899085242" duration="1182000" />
       <workItem from="1595900401899" duration="34000" />
       <workItem from="1595901012489" duration="8832000" />
-      <workItem from="1595923582773" duration="3462000" />
+      <workItem from="1595923582773" duration="3663000" />
+      <workItem from="1595990348788" duration="9000" />
+      <workItem from="1595990382286" duration="7000" />
+      <workItem from="1595993016055" duration="1357000" />
+      <workItem from="1596004039116" duration="270000" />
+      <workItem from="1596004330938" duration="808000" />
+      <workItem from="1596005166325" duration="85000" />
+      <workItem from="1596005273321" duration="238000" />
+      <workItem from="1596091840857" duration="1159000" />
     </task>
     <task id="LOCAL-00001" summary="安装dart-sass">
       <created>1595829221850</created>
@@ -136,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595926856276</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="封装Nav">
+      <created>1595927587389</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1595927587389</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,28 +195,29 @@
     <MESSAGE value="底部导航栏" />
     <MESSAGE value="引入字体库（黑体）" />
     <MESSAGE value="设置body" />
-    <option name="LAST_COMMIT_MESSAGE" value="设置body" />
+    <MESSAGE value="封装Nav" />
+    <option name="LAST_COMMIT_MESSAGE" value="封装Nav" />
   </component>
   <component name="WindowStateProjectService">
     <state x="198" y="404" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595899797630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="198" y="404" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595899797630" />
-    <state x="528" y="15" key="CommitChangelistDialog2" timestamp="1595927286301">
+    <state x="528" y="15" key="CommitChangelistDialog2" timestamp="1595927586295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="528" y="15" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595927286301" />
-    <state x="868" y="393" key="FileChooserDialogImpl" timestamp="1595918410664">
+    <state x="528" y="15" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595927586295" />
+    <state x="868" y="393" key="FileChooserDialogImpl" timestamp="1596003877957">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="868" y="393" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595918410664" />
-    <state x="706" y="236" key="SettingsEditor" timestamp="1595899051512">
+    <state x="868" y="393" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596003877957" />
+    <state x="486" y="295" key="SettingsEditor" timestamp="1596092300107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="706" y="236" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595899051512" />
-    <state x="1383" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1595926524028">
+    <state x="486" y="295" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596092300107" />
+    <state x="848" y="331" width="672" height="678" key="search.everywhere.popup" timestamp="1596005115461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1383" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595926524028" />
+    <state x="848" y="331" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596005115461" />
   </component>
 </project>
