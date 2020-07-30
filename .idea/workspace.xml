@@ -26,9 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22bc1668-1b32-4319-bfe6-67233b11e656" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,7 @@
       <workItem from="1596004330938" duration="808000" />
       <workItem from="1596005166325" duration="85000" />
       <workItem from="1596005273321" duration="238000" />
-      <workItem from="1596091840857" duration="1159000" />
+      <workItem from="1596091840857" duration="1526000" />
     </task>
     <task id="LOCAL-00001" summary="安装dart-sass">
       <created>1595829221850</created>
@@ -156,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595927587389</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="添加svg文件">
+      <created>1596093139187</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1596093139187</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,17 +202,18 @@
     <MESSAGE value="引入字体库（黑体）" />
     <MESSAGE value="设置body" />
     <MESSAGE value="封装Nav" />
-    <option name="LAST_COMMIT_MESSAGE" value="封装Nav" />
+    <MESSAGE value="添加svg文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加svg文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="198" y="404" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595899797630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="198" y="404" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595899797630" />
-    <state x="528" y="15" key="CommitChangelistDialog2" timestamp="1595927586295">
+    <state x="631" y="81" width="1092" height="851" key="CommitChangelistDialog2" timestamp="1596093137687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="528" y="15" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595927586295" />
+    <state x="631" y="81" width="1092" height="851" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596093137687" />
     <state x="868" y="393" key="FileChooserDialogImpl" timestamp="1596003877957">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
