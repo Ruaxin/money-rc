@@ -3,7 +3,27 @@ import React from 'react';
 import styled from 'styled-components';
 
 const TagsSection = styled.section`
-
+  background: #ffffff;
+  padding: 12px 16px;
+  > ol{
+  margin: 0 -12px;
+    > li{
+      border-radius: 18px;
+      background: rgb(255, 130, 0);
+      display: inline-block;
+      font-size: 14px;
+      padding: 3px 18px;
+      margin: 8px 12px;
+    }
+  }
+  > button{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #333333;
+    padding: 2px 4px;
+    color: #666666;
+    margin-top: 8px;
+  }
 `
 const NoteSection = styled.section`
 
@@ -24,6 +44,7 @@ function Money() {
           <li>住</li>
           <li>行</li>
         </ol>
+        <button>新增标签</button>
       </TagsSection>
       <NoteSection>
         <label>
