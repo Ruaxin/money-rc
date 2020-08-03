@@ -25,11 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22bc1668-1b32-4319-bfe6-67233b11e656" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-    </list>
+    <list default="true" id="22bc1668-1b32-4319-bfe6-67233b11e656" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +48,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/icons" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
-    <property name="ts.external.directory.path" value="D:\Software\WebStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="D:\Jirengu\money-rc\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -85,7 +81,7 @@
       <workItem from="1596005166325" duration="85000" />
       <workItem from="1596005273321" duration="238000" />
       <workItem from="1596091840857" duration="3346000" />
-      <workItem from="1596288025875" duration="366000" />
+      <workItem from="1596288025875" duration="490000" />
     </task>
     <task id="LOCAL-00001" summary="安装dart-sass">
       <created>1595829221850</created>
@@ -171,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596093499930</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="icon完成">
+      <created>1596288496373</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1596288496373</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,17 +223,18 @@
     <MESSAGE value="封装Nav" />
     <MESSAGE value="添加svg文件" />
     <MESSAGE value="eject" />
-    <option name="LAST_COMMIT_MESSAGE" value="eject" />
+    <MESSAGE value="icon完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="icon完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="198" y="404" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595899797630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="198" y="404" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595899797630" />
-    <state x="631" y="81" width="1092" height="851" key="CommitChangelistDialog2" timestamp="1596093498732">
+    <state x="631" y="81" width="1092" height="851" key="CommitChangelistDialog2" timestamp="1596288495754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="631" y="81" width="1092" height="851" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596093498732" />
+    <state x="631" y="81" width="1092" height="851" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596288495754" />
     <state x="868" y="393" key="FileChooserDialogImpl" timestamp="1596003877957">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
