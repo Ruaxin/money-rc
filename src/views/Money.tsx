@@ -6,10 +6,10 @@ const TagsSection = styled.section`
   background: #ffffff;
   padding: 12px 16px;
   > ol{
-  margin: 0 -12px;
+    margin: 0 -12px;
     > li{
       border-radius: 18px;
-      background: rgb(255, 130, 0);
+      background: rgb(255, 161, 105);
       display: inline-block;
       font-size: 14px;
       padding: 3px 18px;
@@ -24,14 +24,14 @@ const TagsSection = styled.section`
     color: #666666;
     margin-top: 8px;
   }
-`
+`;
 const NoteSection = styled.section`
   background: #f5f5f5;
   padding: 0 16px;
   font-size: 14px;  
   > label{
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
     > span{
       margin-right: 16px;
       white-space: nowrap;
@@ -44,13 +44,34 @@ const NoteSection = styled.section`
       border: none;
     }
   }
-`
+`;
 const CategorySection = styled.section`
-
-`
+  font-size: 24px;
+  > ul{
+    display: flex;
+    background: rgb(255, 130, 0);
+    > li{
+      width: 50%;
+      text-align: center;
+      padding: 16px 0;
+      position: relative;
+      &.selected::after{
+        content: '';
+        height: 3px;
+        width: 100%;
+        background: rgb(255, 80, 0);
+        display: block; 
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+    }
+  }
+`;
 const NumberPadSection = styled.section`
 
-`
+`;
+
 function Money() {
   return (
     <Layout>
@@ -71,7 +92,7 @@ function Money() {
       </NoteSection>
       <CategorySection>
         <ul>
-          <li>支出</li>
+          <li className='selected'>支出</li>
           <li>收入</li>
         </ul>
       </CategorySection>
