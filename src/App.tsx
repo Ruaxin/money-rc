@@ -1,78 +1,62 @@
 import React from 'react';
 import {
-    HashRouter as Router,
-    Switch,
-    Route,
-    Redirect,
-} from 'react-router-dom'
-import styled from "styled-components"
-import Nav from "./components/Nav";
-
-const Wrapper = styled.div`
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-`
-const Main = styled.div`
-  flex-grow: 1;
-  overflow: auto;
-`
+  HashRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from 'react-router-dom';
+import Layout from './components/Layout';
 
 function App() {
-    return (
-        <Router>
-            <Wrapper>
-                <Main>
-                    <Switch>
-                        <Route path="/money">
-                            <Money/>
-                        </Route>
-                        <Route path="/tags">
-                            <Tags/>
-                        </Route>
-                        <Route path="/statistics">
-                            <Statistics/>
-                        </Route>
-                        <Redirect exact from='/' to='/money'/>
-                        <Route path='*'>
-                            <NoMatch/>
-                        </Route>
-                    </Switch>
-                </Main>
-                <Nav/>
-            </Wrapper>
-        </Router>
-    )
+  return (
+    <Router>
+      <Switch>
+        <Route path="/money">
+          <Money/>
+        </Route>
+        <Route path="/tags">
+          <Tags/>
+        </Route>
+        <Route path="/statistics">
+          <Statistics/>
+        </Route>
+        <Redirect exact from='/' to='/money'/>
+        <Route path='*'>
+          <NoMatch/>
+        </Route>
+      </Switch>
+    </Router>
+  );
 }
 
 function Money() {
-    return (
-        <div>
-            <h2>记账</h2>
-        </div>
-    )
+  return (
+    <Layout>
+      <h2>记账</h2>
+    </Layout>
+  );
 }
 
 function Tags() {
-    return (
-        <div>
-            <h2>标签</h2>
-        </div>
-    )
+  return (
+    <Layout>
+      <h2>标签</h2>
+    </Layout>
+  );
 }
 
 function Statistics() {
-    return (
-        <div>
-            <h2>统计</h2>
-        </div>
-    )
+  return (
+    <Layout>
+      <h2>统计</h2>
+    </Layout>
+  );
 }
 
 function NoMatch() {
-    return (
-        <div>404</div>
-    )
+  return (
+    <div>404</div>
+  );
 
 }
 
