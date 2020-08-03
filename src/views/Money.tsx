@@ -92,37 +92,37 @@ const NumberPadSection = styled.section`
         height: 128px;
       }
       &:nth-child(1){
-        background: rgba(238, 171, 64);
+        background: rgba(249, 212, 35);
       }
       &:nth-child(2),
       &:nth-child(6){
-        background: rgba(232, 154, 56);
+        background: rgba(251, 203, 35);
       }
       &:nth-child(3),
       &:nth-child(7),
       &:nth-child(11){
-        background: rgba(232, 144, 54);
+        background: rgba(250, 187, 34);
       }
       &:nth-child(4),
       &:nth-child(8),
       &:nth-child(12),
       &:nth-child(16){
-        background: rgba(228, 125, 48);
+        background: rgba(250, 158, 35);
       }
       &:nth-child(5),
       &:nth-child(9),
       &:nth-child(13),
       &:nth-child(17){
-        background: rgba(223, 108, 43);
+        background: rgba(250, 129, 36);
       }
       &:nth-child(10),
       &:nth-child(14),
       &:nth-child(18){
-        background: rgba(226, 103, 44);
+        background: rgba(250, 94, 35);
       }
       &:nth-child(15),
       &:nth-child(19){
-        background: rgba(219, 98, 41);
+        background: rgba(250, 56, 29);
       }
     }
   }
