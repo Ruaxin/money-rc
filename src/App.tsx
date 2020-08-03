@@ -1,79 +1,42 @@
 import React from 'react';
 import {
-    HashRouter as Router,
-    Switch,
-    Route,
-    Redirect,
-} from 'react-router-dom'
-import styled from "styled-components"
-import Nav from "./components/Nav";
+  HashRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from 'react-router-dom';
+import Money from './views/Money';
+import Tags from './views/Tags';
+import Statistics from './views/Statistics';
+import NoMatch from './views/NoMatch';
+import styled from 'styled-components';
 
-const Wrapper = styled.div`
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-`
-const Main = styled.div`
-  flex-grow: 1;
-  overflow: auto;
-`
+const AppWrapper = styled.div`
+  color: #333333;
+`;
 
 function App() {
-    return (
-        <Router>
-            <Wrapper>
-                <Main>
-                    <Switch>
-                        <Route path="/money">
-                            <Money/>
-                        </Route>
-                        <Route path="/tags">
-                            <Tags/>
-                        </Route>
-                        <Route path="/statistics">
-                            <Statistics/>
-                        </Route>
-                        <Redirect exact from='/' to='/money'/>
-                        <Route path='*'>
-                            <NoMatch/>
-                        </Route>
-                    </Switch>
-                </Main>
-                <Nav/>
-            </Wrapper>
-        </Router>
-    )
-}
-
-function Money() {
-    return (
-        <div>
-            <h2>记账</h2>
-        </div>
-    )
-}
-
-function Tags() {
-    return (
-        <div>
-            <h2>标签</h2>
-        </div>
-    )
-}
-
-function Statistics() {
-    return (
-        <div>
-            <h2>统计</h2>
-        </div>
-    )
-}
-
-function NoMatch() {
-    return (
-        <div>404</div>
-    )
-
+  return (
+    <AppWrapper>
+      <Router>
+        <Switch>
+          <Route path="/money">
+            <Money/>
+          </Route>
+          <Route path="/tags">
+            <Tags/>
+          </Route>
+          <Route path="/statistics">
+            <Statistics/>
+          </Route>
+          <Redirect exact from='/' to='/money'/>
+          <Route path='*'>
+            <NoMatch/>
+          </Route>
+        </Switch>
+      </Router>
+    </AppWrapper>
+  );
 }
 
 export default App;

@@ -25,7 +25,19 @@
     </select>
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="22bc1668-1b32-4319-bfe6-67233b11e656" name="Default Changelist" comment="" />
+=======
+<<<<<<< HEAD
+    <list default="true" id="22bc1668-1b32-4319-bfe6-67233b11e656" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="22bc1668-1b32-4319-bfe6-67233b11e656" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+    </list>
+>>>>>>> origin/master
+>>>>>>> origin/master
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,8 +92,16 @@
       <workItem from="1596004330938" duration="808000" />
       <workItem from="1596005166325" duration="85000" />
       <workItem from="1596005273321" duration="238000" />
+<<<<<<< HEAD
+      <workItem from="1596091840857" duration="3749000" />
+=======
       <workItem from="1596091840857" duration="3346000" />
+<<<<<<< HEAD
       <workItem from="1596288025875" duration="490000" />
+=======
+      <workItem from="1596288025875" duration="366000" />
+>>>>>>> origin/master
+>>>>>>> origin/master
     </task>
     <task id="LOCAL-00001" summary="安装dart-sass">
       <created>1595829221850</created>
@@ -167,12 +187,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596093499930</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00013" summary="icon完成">
       <created>1596288496373</created>
       <option name="number" value="00013" />
       <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
       <updated>1596288496373</updated>
+=======
+    <task id="LOCAL-00013" summary="配置svg">
+      <created>1596100975656</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1596100975656</updated>
+>>>>>>> origin/master
     </task>
     <option name="localTasksCounter" value="14" />
     <servers />
@@ -223,18 +252,30 @@
     <MESSAGE value="封装Nav" />
     <MESSAGE value="添加svg文件" />
     <MESSAGE value="eject" />
+<<<<<<< HEAD
     <MESSAGE value="icon完成" />
     <option name="LAST_COMMIT_MESSAGE" value="icon完成" />
+=======
+    <MESSAGE value="配置svg" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置svg" />
+>>>>>>> origin/master
   </component>
   <component name="WindowStateProjectService">
     <state x="198" y="404" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595899797630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="198" y="404" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595899797630" />
+<<<<<<< HEAD
     <state x="631" y="81" width="1092" height="851" key="CommitChangelistDialog2" timestamp="1596288495754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="631" y="81" width="1092" height="851" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596288495754" />
+=======
+    <state x="631" y="81" width="1092" height="851" key="CommitChangelistDialog2" timestamp="1596100974276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="631" y="81" width="1092" height="851" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596100974276" />
+>>>>>>> origin/master
     <state x="868" y="393" key="FileChooserDialogImpl" timestamp="1596003877957">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
