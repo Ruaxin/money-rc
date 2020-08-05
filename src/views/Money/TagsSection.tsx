@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import React from 'react';
+import React, {useState} from 'react';
 
-const _TagsSection = styled.section`
+const Wrapper = styled.section`
   background: #ffffff;
   padding: 12px 16px;
   flex-grow: 1;
@@ -31,16 +31,22 @@ const _TagsSection = styled.section`
 `;
 
 const TagsSection: React.FC = () => {
+  const [tags, setTags] = useState<string[]>(['衣', '食', '住', '行']);
+  const onAddTag = () => {
+    const tagName = window.prompt('请输入标签')
+    if(tagName !== null){
+      setTags([...tags,tagName])
+    }
+  };
   return (
-    <_TagsSection>
+    <Wrapper>
       <ol>
-        <li>衣</li>
-        <li>食</li>
-        <li>住</li>
-        <li>行</li>
+        {tags.map(tag =>
+          <li key={tag}>{tag}</li>
+        )}
       </ol>
-      <button>新增标签</button>
-    </_TagsSection>
+      <button onClick={onAddTag}>新增标签</button>
+    </Wrapper>
   );
 };
 export default TagsSection;
