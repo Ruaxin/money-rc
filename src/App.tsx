@@ -29,7 +29,9 @@ function App() {
           <Route path="/statistics">
             <Statistics/>
           </Route>
+          {/*默认路由*/}
           <Redirect exact from='/' to='/money'/>
+          {/*404*/}
           <Route path='*'>
             <NoMatch/>
           </Route>
