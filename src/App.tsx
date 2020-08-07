@@ -5,10 +5,10 @@ import {
   Route,
   Redirect,
 } from 'react-router-dom';
-import Money from './views/Money';
-import Tags from './views/Tags';
-import Statistics from './views/Statistics';
-import NoMatch from './views/NoMatch';
+import Money from 'views/Money';
+import Tags from 'views/Tags';
+import Statistics from 'views/Statistics';
+import NoMatch from 'views/NoMatch';
 import styled from 'styled-components';
 
 const AppWrapper = styled.div`

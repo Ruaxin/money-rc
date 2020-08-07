@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
-  </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <list default="true" id="22bc1668-1b32-4319-bfe6-67233b11e656" name="Default Changelist" comment="" />
 =======
@@ -32,11 +9,20 @@
     <list default="true" id="22bc1668-1b32-4319-bfe6-67233b11e656" name="Default Changelist" comment="" />
 =======
     <list default="true" id="22bc1668-1b32-4319-bfe6-67233b11e656" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-    </list>
+=======
+    <list default="true" id="ab9fdd58-12c1-4362-8f6c-0389d6f18d27" name="Default Changelist" comment="">
 >>>>>>> origin/master
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Money.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Money/CategorySection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/CategorySection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Money/NoteSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/NoteSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Money/NumberPadSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/NumberPadSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Money/TagsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/TagsSection.tsx" afterDir="false" />
+    </list>
+<<<<<<< HEAD
+>>>>>>> origin/master
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1d881Gj7OmPp2GkyxA6WtA55jqX" />
+  <component name="ProjectId" id="1fhfWibPotEprA0IsGpPCuFVuVA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,6 +43,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/icons" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
@@ -66,16 +53,25 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\test\money-rc\src\icons" />
     </key>
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="D:\test\money-rc\node_modules\typescript\lib" />
+>>>>>>> origin/master
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="22bc1668-1b32-4319-bfe6-67233b11e656" name="Default Changelist" comment="" />
-      <created>1591795143045</created>
+      <changelist id="ab9fdd58-12c1-4362-8f6c-0389d6f18d27" name="Default Changelist" comment="" />
+      <created>1596675278411</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1591795143045</updated>
       <workItem from="1591795146895" duration="38000" />
       <workItem from="1591795220707" duration="889000" />
@@ -102,14 +98,21 @@
       <workItem from="1596288025875" duration="366000" />
 >>>>>>> origin/master
 >>>>>>> origin/master
+=======
+      <updated>1596675278411</updated>
+      <workItem from="1596675280023" duration="11608000" />
+      <workItem from="1596760201760" duration="136000" />
+      <workItem from="1596760368957" duration="13687000" />
+>>>>>>> origin/master
     </task>
-    <task id="LOCAL-00001" summary="安装dart-sass">
-      <created>1595829221850</created>
+    <task id="LOCAL-00001" summary="完成tag模块">
+      <created>1596785823371</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1595829221850</updated>
+      <updated>1596785823372</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00002" summary="安装styled-components">
       <created>1595899253659</created>
       <option name="number" value="00002" />
@@ -204,43 +207,16 @@
 >>>>>>> origin/master
     </task>
     <option name="localTasksCounter" value="14" />
+=======
+    <option name="localTasksCounter" value="2" />
+>>>>>>> origin/master
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/node_modules/wait-for-expect/lib/toBeInRangeMatcher.d.js" />
-        <option value="$PROJECT_DIR$/node_modules/wait-for-expect/lib/waitForExpect.spec.d.js" />
-        <option value="$PROJECT_DIR$/node_modules/wait-for-expect/lib/index.d.js" />
-      </list>
-    </option>
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
     <MESSAGE value="安装dart-sass" />
     <MESSAGE value="安装styled-components" />
     <MESSAGE value="初始化" />
@@ -281,12 +257,19 @@
     </state>
     <state x="868" y="393" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596003877957" />
     <state x="486" y="295" key="SettingsEditor" timestamp="1596092300107">
+=======
+    <MESSAGE value="完成tag模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成tag模块" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="645" y="13" key="CommitChangelistDialog2" timestamp="1596785821306">
+>>>>>>> origin/master
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="486" y="295" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596092300107" />
-    <state x="848" y="331" width="672" height="678" key="search.everywhere.popup" timestamp="1596093583642">
+    <state x="645" y="13" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596785821306" />
+    <state x="1109" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1596777496862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="848" y="331" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596093583642" />
+    <state x="1109" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596777496862" />
   </component>
 </project>
