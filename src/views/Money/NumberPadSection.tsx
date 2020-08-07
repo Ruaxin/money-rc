@@ -61,4 +61,4 @@ const NumberPadSection = styled.section`
     }
   }
 `;
-export default NumberPadSection;
+export {NumberPadSection};

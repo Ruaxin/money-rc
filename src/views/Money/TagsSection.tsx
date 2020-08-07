@@ -62,4 +62,4 @@ const TagsSection: React.FC = () => {
     </Wrapper>
   );
 };
-export default TagsSection;
+export {TagsSection};
