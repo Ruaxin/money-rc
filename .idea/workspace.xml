@@ -5,9 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Money.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Money/CategorySection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/CategorySection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Money/NoteSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/NoteSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Money/NumberPadSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/NumberPadSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Money/TagsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/TagsSection.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +44,9 @@
       <updated>1596675278411</updated>
       <workItem from="1596675280023" duration="11608000" />
       <workItem from="1596760201760" duration="136000" />
-      <workItem from="1596760368957" duration="13687000" />
+      <workItem from="1596760368957" duration="14623000" />
+      <workItem from="1597019536259" duration="95000" />
+      <workItem from="1597019741553" duration="2454000" />
     </task>
     <task id="LOCAL-00001" summary="完成tag模块">
       <created>1596785823371</created>
@@ -56,7 +55,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596785823372</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完成note功能">
+      <created>1596791490572</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596791490572</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -64,13 +70,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完成tag模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成tag模块" />
+    <MESSAGE value="完成note功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成note功能" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="645" y="13" key="CommitChangelistDialog2" timestamp="1596785821306">
+    <state x="645" y="13" key="CommitChangelistDialog2" timestamp="1596791489267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="645" y="13" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596785821306" />
+    <state x="645" y="13" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596791489267" />
     <state x="1109" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1596777496862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
