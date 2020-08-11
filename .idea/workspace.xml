@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ab9fdd58-12c1-4362-8f6c-0389d6f18d27" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Money.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Money/NumberPadSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/NumberPadSection.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +45,9 @@
       <workItem from="1596760201760" duration="136000" />
       <workItem from="1596760368957" duration="14623000" />
       <workItem from="1597019536259" duration="95000" />
-      <workItem from="1597019741553" duration="6212000" />
+      <workItem from="1597019741553" duration="6918000" />
+      <workItem from="1597106039114" duration="73000" />
+      <workItem from="1597106143845" duration="1840000" />
     </task>
     <task id="LOCAL-00001" summary="完成tag模块">
       <created>1596785823371</created>
@@ -69,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597022647408</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="numberPad 完成一半">
+      <created>1597050346704</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597050346704</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,16 +87,17 @@
     <MESSAGE value="完成tag模块" />
     <MESSAGE value="完成note功能" />
     <MESSAGE value="完成category功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成category功能" />
+    <MESSAGE value="numberPad 完成一半" />
+    <option name="LAST_COMMIT_MESSAGE" value="numberPad 完成一半" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="599" y="80" key="CommitChangelistDialog2" timestamp="1597022645120">
+    <state x="650" y="127" key="CommitChangelistDialog2" timestamp="1597050344775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="599" y="80" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597022645120" />
-    <state x="1109" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1596777496862">
+    <state x="650" y="127" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597050344775" />
+    <state x="1109" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1597106767596">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1109" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596777496862" />
+    <state x="1109" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597106767596" />
   </component>
 </project>
