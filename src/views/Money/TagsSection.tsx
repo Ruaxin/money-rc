@@ -62,4 +62,5 @@ const TagsSection: React.FC = () => {
     </Wrapper>
   );
 };
+
 export {TagsSection};

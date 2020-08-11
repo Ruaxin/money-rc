@@ -16,7 +16,7 @@ const NumberPadSection: React.FC = () => {
     const text = (e.target as HTMLButtonElement).textContent;
     if (text === null) {return;}
     if (text === 'OK') {return;}
-    if('0123456789.+-×÷%'.split('').concat(['删除','清空']).indexOf(text)>=0){
+    if('0123456789.+-×÷='.split('').concat(['删除','清空']).indexOf(text)>=0){
       setOutput(generateOutput(text,output));
     }
   };
@@ -41,7 +41,7 @@ const NumberPadSection: React.FC = () => {
         <button className='ok'>OK</button>
         <button>0</button>
         <button>.</button>
-        <button>%</button>
+        <button>=</button>
         <button>÷</button>
       </div>
     </Wrapper>

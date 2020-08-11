@@ -1,3 +1,8 @@
+let temp1 = 0;
+let temp2 = 0;
+let temp3 = 0;
+let temp4 = 0;
+let sum = 0;
 const generateOutput = (text: string, output = '0') => {
   switch (text) {
     case '0':
@@ -26,18 +31,45 @@ const generateOutput = (text: string, output = '0') => {
       }
     case '清空':
       return '';
-    // case 'OK':
-    //   return ''
-    // case '+':
-    //   return ''
-    // case '-':
-    //   return ''
-    // case '×':
-    //   return ''
-    // case '÷':
-    //   return ''
-    // case '%':
-    //   return ''
+    case 'OK':
+      return '';
+    case '+':
+      if (output !== '0') {
+        temp1 = parseInt(output);
+      }
+      return '';
+    case '-':
+      if (output !== '0') {
+        temp2 = parseInt(output);
+      }
+      return '';
+    case '×':
+      if (output !== '0') {
+        temp3 = parseInt(output);
+      }
+      return ''
+    case '÷':
+      if (output !== '0') {
+        temp4 = parseInt(output);
+      }
+      return ''
+    case '=':
+      if (temp1) {
+        sum += temp1 + parseInt(output);
+      }else if(temp2){
+        sum += temp2 - parseInt(output);
+      }else if(temp3){
+        sum += temp3 * parseInt(output);
+      }else if(temp4){
+        sum += temp4 / parseInt(output);
+      }
+      const res = sum.toString();
+      sum = 0;
+      temp1 = 0;
+      temp2 = 0;
+      temp3 = 0;
+      temp4 = 0;
+      return (res);
     default:
       return '';
   }

@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ab9fdd58-12c1-4362-8f6c-0389d6f18d27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/views/Money/NumberPadSection/Wrapper.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Money/NumberPadSection/generateOutput.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Money/NumberPadSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/NumberPadSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Money/NumberPadSection/generateOutput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/NumberPadSection/generateOutput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Money/TagsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/TagsSection.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +75,7 @@
       <workItem from="1597019536259" duration="95000" />
       <workItem from="1597019741553" duration="6918000" />
       <workItem from="1597106039114" duration="73000" />
-      <workItem from="1597106143845" duration="7245000" />
+      <workItem from="1597106143845" duration="10664000" />
     </task>
     <task id="LOCAL-00001" summary="完成tag模块">
       <created>1596785823371</created>
@@ -94,11 +112,29 @@
       <option name="project" value="LOCAL" />
       <updated>1597108032899</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="重构numpad">
+      <created>1597128208640</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597128208640</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完成tag模块" />
@@ -106,13 +142,14 @@
     <MESSAGE value="完成category功能" />
     <MESSAGE value="numberPad 完成一半" />
     <MESSAGE value="数字面板按钮基本完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="数字面板按钮基本完成" />
+    <MESSAGE value="重构numpad" />
+    <option name="LAST_COMMIT_MESSAGE" value="重构numpad" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="650" y="127" key="CommitChangelistDialog2" timestamp="1597108030976">
+    <state x="650" y="127" key="CommitChangelistDialog2" timestamp="1597128207185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="650" y="127" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597108030976" />
+    <state x="650" y="127" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597128207185" />
     <state x="1109" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1597127364270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
