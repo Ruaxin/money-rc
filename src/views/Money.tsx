@@ -1,5 +1,5 @@
 import Layout from '../components/Layout';
-import React from 'react';
+import React, {useState} from 'react';
 import styled from 'styled-components';
 import {TagsSection} from './Money/TagsSection';
 import {NoteSection} from './Money/NoteSection';
@@ -11,41 +11,36 @@ const MyLayout = styled(Layout)`
   flex-direction: column;
 `;
 
+type Category = '-' | '+'
+
 function Money() {
+  const [selected, setSelected] = useState({
+    tags: [] as string[],
+    note: '',
+    category: '-' as Category,
+    amount: 0
+  });
+  const onChange = (obj: Partial<typeof selected>) => {
+    setSelected({
+      ...selected,
+      ...obj
+    });
+  };
   return (
     <MyLayout>
-      <TagsSection/>
-      <NoteSection/>
-      <CategorySection>
-        <ul>
-          <li className='selected'>支出</li>
-          <li>收入</li>
-        </ul>
-      </CategorySection>
-      <NumberPadSection>
-        <div className='output'>100</div>
-        <div className="pad clearfix">
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
-          <button>+</button>
-          <button>删除</button>
-          <button>4</button>
-          <button>5</button>
-          <button>6</button>
-          <button>-</button>
-          <button>清空</button>
-          <button>7</button>
-          <button>8</button>
-          <button>9</button>
-          <button>×</button>
-          <button className='ok'>ok</button>
-          <button>0</button>
-          <button>.</button>
-          <button>%</button>
-          <button>÷</button>
-        </div>
-      </NumberPadSection>
+      <TagsSection value={selected.tags}
+                   onChange={tags => onChange({tags})}
+      />
+      <NoteSection value={selected.note}
+                   onChange={note => onChange({note})}
+      />
+      <CategorySection value={selected.category}
+                       onChange={category => onChange({category})}
+      />
+      <NumberPadSection value={selected.amount}
+                        onChange={amount => onChange({amount})}
+                        onOk={() => {}}
+      />
     </MyLayout>
   );
 }

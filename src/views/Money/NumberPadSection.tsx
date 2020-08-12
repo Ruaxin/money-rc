@@ -1,64 +1,64 @@
-import styled from 'styled-components';
+import React from 'react';
+import {Wrapper} from './NumberPadSection/Wrapper';
+import {generateOutput} from './NumberPadSection/generateOutput';
 
-const NumberPadSection = styled.section`
-  display: flex;
-  flex-direction: column;
-  > .output{
-    background: white;
-    font-size: 36px;
-    line-height: 72px;
-    text-align: right;
-    padding: 0 16px;
-    box-shadow: inset 0 -5px 5px -5px rgba(0,0,0,0.25),
-                inset 0 5px 5px -5px rgba(0,0,0,0.25);
-  }
-  > .pad{
-    > button{
-      font-size: 18px;
-      float: left;
-      width: 20%;
-      height: 64px;
-      border: none;
-      &.ok{
-        float: right;
-        height: 128px;
-      }
-      &:nth-child(1){
-        background: rgba(245, 221, 175);
-      }
-      &:nth-child(2),
-      &:nth-child(6){
-        background: rgba(242, 210, 123);
-      }
-      &:nth-child(3),
-      &:nth-child(7),
-      &:nth-child(11){
-        background: rgba(240, 207, 94);
-      }
-      &:nth-child(4),
-      &:nth-child(8),
-      &:nth-child(12),
-      &:nth-child(16){
-        background: rgba(239, 198, 84);
-      }
-      &:nth-child(5),
-      &:nth-child(9),
-      &:nth-child(13),
-      &:nth-child(17){
-        background: rgba(238, 170, 63);
-      }
-      &:nth-child(10),
-      &:nth-child(14),
-      &:nth-child(18){
-        background: rgba(239, 157, 55);
-      }
-      &:nth-child(15){
-        background: rgba(233, 117, 43);
-      }
-      &:nth-child(19){
-        background: rgba(228, 132, 46);
-      }
+type Props = {
+  value: number;
+  onChange: (value: number) => void;
+  onOk?: () => void;
+}
+
+const NumberPadSection: React.FC<Props> = (props) => {
+  const output = props.value.toString();
+  const setOutput = (output: string) => {
+    let value;
+    if (output.length > 16) {
+      value = parseFloat(output.slice(0, 16));
+    } else if (output.length === 0) {
+      value = 0;
+    } else {
+      value = parseFloat(output);
     }
-  }
-`;
+    props.onChange(value);
+  };
+  const onClickButtonWrapper = (e: React.MouseEvent) => {
+    const text = (e.target as HTMLButtonElement).textContent;
+    if (text === null) {return;}
+    if (text === 'OK') {
+      if (props.onOk) {
+        props.onOk();
+      }
+      return;
+    }
+    if ('0123456789.+-×÷='.split('').concat(['删除', '清空']).indexOf(text) >= 0) {
+      setOutput(generateOutput(text, output));
+    }
+  };
+  return (
+    <Wrapper>
+      <div className='output'>{output}</div>
+      <div className="pad clearfix" onClick={onClickButtonWrapper}>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>+</button>
+        <button>删除</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>-</button>
+        <button>清空</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>×</button>
+        <button className='ok'>OK</button>
+        <button>0</button>
+        <button>.</button>
+        <button>=</button>
+        <button>÷</button>
+      </div>
+    </Wrapper>
+  );
+};
 export {NumberPadSection};
