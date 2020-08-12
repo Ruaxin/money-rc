@@ -21,6 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ab9fdd58-12c1-4362-8f6c-0389d6f18d27" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Money.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Money/CategorySection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/CategorySection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Money/NoteSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/NoteSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Money/NumberPadSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/NumberPadSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Money/NumberPadSection/generateOutput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/NumberPadSection/generateOutput.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Money/TagsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/TagsSection.tsx" afterDir="false" />
@@ -75,7 +78,8 @@
       <workItem from="1597019536259" duration="95000" />
       <workItem from="1597019741553" duration="6918000" />
       <workItem from="1597106039114" duration="73000" />
-      <workItem from="1597106143845" duration="10664000" />
+      <workItem from="1597106143845" duration="14362000" />
+      <workItem from="1597193249647" duration="10386000" />
     </task>
     <task id="LOCAL-00001" summary="完成tag模块">
       <created>1596785823371</created>
@@ -119,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597128208640</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="完成简单的计算">
+      <created>1597131878634</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597131878634</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +146,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完成tag模块" />
@@ -143,13 +155,14 @@
     <MESSAGE value="numberPad 完成一半" />
     <MESSAGE value="数字面板按钮基本完成" />
     <MESSAGE value="重构numpad" />
-    <option name="LAST_COMMIT_MESSAGE" value="重构numpad" />
+    <MESSAGE value="完成简单的计算" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成简单的计算" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="650" y="127" key="CommitChangelistDialog2" timestamp="1597128207185">
+    <state x="650" y="127" key="CommitChangelistDialog2" timestamp="1597131877365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="650" y="127" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597128207185" />
+    <state x="650" y="127" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597131877365" />
     <state x="1109" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1597127364270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -22,6 +22,7 @@ const generateOutput = (text: string, output = '0') => {
       }
     case '.':
       if (output.indexOf('.') >= 0) {return output;}
+      console.log(output + '.');
       return (output + '.');
     case '删除':
       if (output.length === 1) {
@@ -47,20 +48,20 @@ const generateOutput = (text: string, output = '0') => {
       if (output !== '0') {
         temp3 = parseInt(output);
       }
-      return ''
+      return '';
     case '÷':
       if (output !== '0') {
         temp4 = parseInt(output);
       }
-      return ''
+      return '';
     case '=':
       if (temp1) {
         sum += temp1 + parseInt(output);
-      }else if(temp2){
+      } else if (temp2) {
         sum += temp2 - parseInt(output);
-      }else if(temp3){
+      } else if (temp3) {
         sum += temp3 * parseInt(output);
-      }else if(temp4){
+      } else if (temp4) {
         sum += temp4 / parseInt(output);
       }
       const res = sum.toString();
