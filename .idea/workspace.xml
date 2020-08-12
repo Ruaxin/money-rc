@@ -1,29 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <list default="true" id="22bc1668-1b32-4319-bfe6-67233b11e656" name="Default Changelist" comment="" />
-=======
-<<<<<<< HEAD
-    <list default="true" id="22bc1668-1b32-4319-bfe6-67233b11e656" name="Default Changelist" comment="" />
-=======
-    <list default="true" id="22bc1668-1b32-4319-bfe6-67233b11e656" name="Default Changelist" comment="">
-=======
-    <list default="true" id="ab9fdd58-12c1-4362-8f6c-0389d6f18d27" name="Default Changelist" comment="">
->>>>>>> origin/master
+    <list default="true" id="e91fee95-35a0-4b05-90d9-75ae4d4b47c9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/money-rc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/money-rc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Default_Changelist.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Default_Changelist/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webResources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Money.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Money/CategorySection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/CategorySection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Money/NoteSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/NoteSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Money/NumberPadSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/NumberPadSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Money/TagsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/TagsSection.tsx" afterDir="false" />
     </list>
-<<<<<<< HEAD
->>>>>>> origin/master
->>>>>>> origin/master
-=======
->>>>>>> origin/master
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +51,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1fhfWibPotEprA0IsGpPCuFVuVA" />
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="git@github.com:Ruaxin/money-rc.git" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1flmFsbleVN3IFMbGaa2gYEO0yZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,236 +67,50 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-<<<<<<< HEAD
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/icons" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
-    <property name="ts.external.directory.path" value="D:\Jirengu\money-rc\node_modules\typescript\lib" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\test\money-rc\src\icons" />
-    </key>
-=======
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="ts.external.directory.path" value="D:\test\money-rc\node_modules\typescript\lib" />
->>>>>>> origin/master
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="D:\Jirengu\money-rc\node_modules\typescript\lib" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ab9fdd58-12c1-4362-8f6c-0389d6f18d27" name="Default Changelist" comment="" />
-      <created>1596675278411</created>
+      <changelist id="e91fee95-35a0-4b05-90d9-75ae4d4b47c9" name="Default Changelist" comment="" />
+      <created>1596800952153</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-<<<<<<< HEAD
-      <updated>1591795143045</updated>
-      <workItem from="1591795146895" duration="38000" />
-      <workItem from="1591795220707" duration="889000" />
-      <workItem from="1595828344517" duration="1057000" />
-      <workItem from="1595898454757" duration="607000" />
-      <workItem from="1595899085242" duration="1182000" />
-      <workItem from="1595900401899" duration="34000" />
-      <workItem from="1595901012489" duration="8832000" />
-      <workItem from="1595923582773" duration="3663000" />
-      <workItem from="1595990348788" duration="9000" />
-      <workItem from="1595990382286" duration="7000" />
-      <workItem from="1595993016055" duration="1357000" />
-      <workItem from="1596004039116" duration="270000" />
-      <workItem from="1596004330938" duration="808000" />
-      <workItem from="1596005166325" duration="85000" />
-      <workItem from="1596005273321" duration="238000" />
-<<<<<<< HEAD
-      <workItem from="1596091840857" duration="3749000" />
-=======
-      <workItem from="1596091840857" duration="3346000" />
-<<<<<<< HEAD
-      <workItem from="1596288025875" duration="490000" />
-=======
-      <workItem from="1596288025875" duration="366000" />
->>>>>>> origin/master
->>>>>>> origin/master
-=======
-      <updated>1596675278411</updated>
-      <workItem from="1596675280023" duration="11608000" />
-      <workItem from="1596760201760" duration="136000" />
-      <workItem from="1596760368957" duration="13687000" />
->>>>>>> origin/master
+      <updated>1596800952153</updated>
+      <workItem from="1596800955690" duration="55000" />
+      <workItem from="1596801020754" duration="110000" />
+      <workItem from="1596949280928" duration="1263000" />
     </task>
-    <task id="LOCAL-00001" summary="完成tag模块">
-      <created>1596785823371</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1596785823372</updated>
-    </task>
-<<<<<<< HEAD
-    <task id="LOCAL-00002" summary="安装styled-components">
-      <created>1595899253659</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1595899253659</updated>
-    </task>
-    <task id="LOCAL-00003" summary="初始化">
-      <created>1595899862694</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1595899862694</updated>
-    </task>
-    <task id="LOCAL-00004" summary="初始化">
-      <created>1595899978842</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1595899978843</updated>
-    </task>
-    <task id="LOCAL-00005" summary="合并">
-      <created>1595900156746</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1595900156746</updated>
-    </task>
-    <task id="LOCAL-00006" summary="底部路由">
-      <created>1595905824286</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1595905824286</updated>
-    </task>
-    <task id="LOCAL-00007" summary="底部导航栏">
-      <created>1595921109609</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1595921109609</updated>
-    </task>
-    <task id="LOCAL-00008" summary="引入字体库（黑体）">
-      <created>1595926325245</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1595926325245</updated>
-    </task>
-    <task id="LOCAL-00009" summary="设置body">
-      <created>1595926856276</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1595926856276</updated>
-    </task>
-    <task id="LOCAL-00010" summary="封装Nav">
-      <created>1595927587389</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1595927587389</updated>
-    </task>
-    <task id="LOCAL-00011" summary="添加svg文件">
-      <created>1596093139187</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1596093139187</updated>
-    </task>
-    <task id="LOCAL-00012" summary="eject">
-      <created>1596093499930</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1596093499930</updated>
-    </task>
-<<<<<<< HEAD
-    <task id="LOCAL-00013" summary="icon完成">
-      <created>1596288496373</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1596288496373</updated>
-=======
-    <task id="LOCAL-00013" summary="配置svg">
-      <created>1596100975656</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1596100975656</updated>
->>>>>>> origin/master
-    </task>
-    <option name="localTasksCounter" value="14" />
-=======
-    <option name="localTasksCounter" value="2" />
->>>>>>> origin/master
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
-  <component name="VcsManagerConfiguration">
-<<<<<<< HEAD
-    <MESSAGE value="安装dart-sass" />
-    <MESSAGE value="安装styled-components" />
-    <MESSAGE value="初始化" />
-    <MESSAGE value="合并" />
-    <MESSAGE value="底部路由" />
-    <MESSAGE value="底部导航栏" />
-    <MESSAGE value="引入字体库（黑体）" />
-    <MESSAGE value="设置body" />
-    <MESSAGE value="封装Nav" />
-    <MESSAGE value="添加svg文件" />
-    <MESSAGE value="eject" />
-<<<<<<< HEAD
-    <MESSAGE value="icon完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="icon完成" />
-=======
-    <MESSAGE value="配置svg" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置svg" />
->>>>>>> origin/master
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="198" y="404" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595899797630">
+    <state x="371" y="137" key="SettingsEditor" timestamp="1596801070417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="198" y="404" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595899797630" />
-<<<<<<< HEAD
-    <state x="631" y="81" width="1092" height="851" key="CommitChangelistDialog2" timestamp="1596288495754">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="631" y="81" width="1092" height="851" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596288495754" />
-=======
-    <state x="631" y="81" width="1092" height="851" key="CommitChangelistDialog2" timestamp="1596100974276">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="631" y="81" width="1092" height="851" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596100974276" />
->>>>>>> origin/master
-    <state x="868" y="393" key="FileChooserDialogImpl" timestamp="1596003877957">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="868" y="393" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596003877957" />
-    <state x="486" y="295" key="SettingsEditor" timestamp="1596092300107">
-=======
-    <MESSAGE value="完成tag模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成tag模块" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="645" y="13" key="CommitChangelistDialog2" timestamp="1596785821306">
->>>>>>> origin/master
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="645" y="13" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596785821306" />
-    <state x="1109" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1596777496862">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1109" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596777496862" />
+    <state x="371" y="137" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596801070417" />
   </component>
 </project>
