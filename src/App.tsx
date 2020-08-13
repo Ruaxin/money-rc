@@ -10,6 +10,7 @@ import Tags from 'views/Tags';
 import Statistics from 'views/Statistics';
 import NoMatch from 'views/NoMatch';
 import styled from 'styled-components';
+import {Tag} from './views/Tag';
 
 const AppWrapper = styled.div`
   color: #333333;
@@ -20,13 +21,16 @@ function App() {
     <AppWrapper>
       <Router>
         <Switch>
-          <Route path="/money">
+          <Route exact path="/money">
             <Money/>
           </Route>
-          <Route path="/tags">
+          <Route exact path="/tags">
             <Tags/>
           </Route>
-          <Route path="/statistics">
+          <Route exact path="/tags/:tag">
+            <Tag/>
+          </Route>
+          <Route exact path="/statistics">
             <Statistics/>
           </Route>
           {/*默认路由*/}
