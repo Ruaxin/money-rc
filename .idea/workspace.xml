@@ -20,8 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab9fdd58-12c1-4362-8f6c-0389d6f18d27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/icons/right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/useTags.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/money-rc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webResources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Money/TagsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money/TagsSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Tags.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Tags.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +62,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/icons" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="D:\test\money-rc\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\test\money-rc\src\icons" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -76,7 +93,8 @@
       <workItem from="1597106143845" duration="14362000" />
       <workItem from="1597193249647" duration="13431000" />
       <workItem from="1597284291886" duration="51000" />
-      <workItem from="1597284378664" duration="108000" />
+      <workItem from="1597284378664" duration="192000" />
+      <workItem from="1597284590874" duration="2585000" />
     </task>
     <task id="LOCAL-00001" summary="完成tag模块">
       <created>1596785823371</created>
@@ -141,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597215890868</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="合并">
+      <created>1597284506433</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1597284506433</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,13 +194,18 @@
     <MESSAGE value="完成简单的计算" />
     <MESSAGE value="收集表单数据" />
     <MESSAGE value="重构表单数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="重构表单数据" />
+    <MESSAGE value="合并" />
+    <option name="LAST_COMMIT_MESSAGE" value="合并" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="650" y="127" key="CommitChangelistDialog2" timestamp="1597215889682">
+    <state x="812" y="318" key="#Inspections" timestamp="1597285527422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="650" y="127" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597215889682" />
+    <state x="812" y="318" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1597285527422" />
+    <state x="712" y="55" key="CommitChangelistDialog2" timestamp="1597284505110">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="712" y="55" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597284505110" />
     <state x="1109" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1597127364270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

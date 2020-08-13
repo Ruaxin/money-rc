@@ -5,7 +5,10 @@
 /.pnp
 .pnp.js
 /.idea
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 # testing
 /coverage
 
