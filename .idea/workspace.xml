@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab9fdd58-12c1-4362-8f6c-0389d6f18d27" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Money.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Money.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,9 @@
       <workItem from="1597019741553" duration="6918000" />
       <workItem from="1597106039114" duration="73000" />
       <workItem from="1597106143845" duration="14362000" />
-      <workItem from="1597193249647" duration="12712000" />
+      <workItem from="1597193249647" duration="13431000" />
+      <workItem from="1597284291886" duration="51000" />
+      <workItem from="1597284378664" duration="108000" />
     </task>
     <task id="LOCAL-00001" summary="完成tag模块">
       <created>1596785823371</created>
@@ -132,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597213621406</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="重构表单数据">
+      <created>1597215890868</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1597215890868</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,13 +168,14 @@
     <MESSAGE value="重构numpad" />
     <MESSAGE value="完成简单的计算" />
     <MESSAGE value="收集表单数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="收集表单数据" />
+    <MESSAGE value="重构表单数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="重构表单数据" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="650" y="127" key="CommitChangelistDialog2" timestamp="1597213619282">
+    <state x="650" y="127" key="CommitChangelistDialog2" timestamp="1597215889682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="650" y="127" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597213619282" />
+    <state x="650" y="127" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597215889682" />
     <state x="1109" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1597127364270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
