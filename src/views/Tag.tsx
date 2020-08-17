@@ -26,10 +26,10 @@ type Params = {
   id: string
 }
 const Tag: React.FC = () => {
-  const {findTag} = useTags();
-  let {id} = useParams<Params>();
-  const tag = findTag(parseInt(id));
-  console.log(tag);
+  const {findTag, updateTag} = useTags();
+  //从地址栏获取id
+  let {id: idString} = useParams<Params>();
+  const tag = findTag(parseInt(idString));
   return (
     <Layout>
       <Topbar>
@@ -38,7 +38,14 @@ const Tag: React.FC = () => {
         <Icon/>
       </Topbar>
       <InputWrapper>
-        <Input label='标签名' type='text' placeholder='请输入标签名'/>
+        <Input label='标签名'
+               type='text'
+               value={tag.name}
+               placeholder='请输入标签名'
+               onChange={(e) => {
+                 updateTag(tag.id, {name: e.target.value});
+               }}
+        />
       </InputWrapper>
       <Center>
         <Space/>
