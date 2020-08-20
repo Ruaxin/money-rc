@@ -1,10 +1,21 @@
 import Layout from 'components/Layout';
-import React from 'react';
+import React, {useState} from 'react';
+import {CategorySection} from './Money/CategorySection';
+import styled from 'styled-components';
+
+const CategoryWrapper = styled.div`
+    background: #f0cf5e;
+`;
 
 function Statistics() {
+  const [category, setCategory] = useState<'+' | '-'>('-');
   return (
     <Layout>
-      <h2>统计</h2>
+      <CategoryWrapper>
+        <CategorySection value={category}
+                         onChange={value => setCategory(value)}
+        />
+      </CategoryWrapper>
     </Layout>
   );
 }
